@@ -1,4 +1,4 @@
- /*******************************************************
+/*******************************************************
 HEADER FILES AND PREPROCESSOR DIRECTIVES USED IN PROJECT
 *******************************************************/
 
@@ -337,33 +337,19 @@ class match
      clrscr();
        char x;
        axb
-       gotoxy(33,1);
+       gotoxy(33,6);
        cprintf("\nA PROJECT ON");
-       gotoxy(34,3);
+       gotoxy(34,8);
        textcolor(BLUE);
        cprintf("LUCK GAME");
        textbackground(BLACK);textcolor(WHITE);
-       gotoxy(35,5);
-       cprintf("MADE BY");
-       gotoxy(33,6);
-       cprintf("JAYESH KUMAR");
-       gotoxy(36,9);
-       textcolor(BLUE);
-       cprintf("SCHOOL");
-       gotoxy(28,10);
-       cprintf("KRISHNA PUBLIC SCHOOL");
-       gotoxy(30,13);
+       gotoxy(35,11);
        textcolor(RED);
-       cprintf("SESSION :- 2018-19");
-       gotoxy(31,16);
-       textcolor(WHITE);
-       cprintf("DEVELOPED AS PER");
-       gotoxy(32,17);
-       cprintf("CURRICULUM OF");
-       gotoxy(22,18);
+       cprintf("MADE BY");
+       gotoxy(33,12);
        textcolor(BLUE);
-       cprintf("CENTERAL BOARD OF SECONDARY EDUCATION");
-       gotoxy(28,21);
+       cprintf("JAYESH KUMAR");
+       gotoxy(28,14);
        textbackground(WHITE);textcolor(RED+BLINK);
        cprintf("\n\n\nPRESS ENTER TO CONTINUE");
        getch();
